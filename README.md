@@ -36,7 +36,7 @@ Manual installation steps for older versions of WSL
     ```
         Invoke-WebRequest -Uri https://aka.ms/wslubuntu2004 -OutFile Ubuntu.appx -UseBasicParsing
     ```
-- Or you can go to the Microsoft store and search for the desired distribution and install it.
+- Or you can go to the Microsoft store and search for the desired distribution and install it it manually through the store instead of this.
 - Once done, run (change app_name with the name of your Linux distribution):
     ```
         Add-AppxPackage .\app_name.appx
